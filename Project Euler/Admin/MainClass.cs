@@ -9,7 +9,8 @@ namespace Project_Euler
         public static void Main(string[] args)
         {
             Console.WriteLine("Hello World!");
-            Program.TestMethod();
+            Project1.RunCode();
+            
         }
     }
 }
