@@ -1,6 +1,7 @@
 ﻿using System;
 using System.Collections.Generic;
 using System.Text;
+using Project_Euler.Projects;
 
 namespace Project_Euler
 {
@@ -10,6 +11,7 @@ namespace Project_Euler
         {
             Console.WriteLine("Hello World!");
             Project1.RunCode();
+            Project2.Solution();
             
         }
     }

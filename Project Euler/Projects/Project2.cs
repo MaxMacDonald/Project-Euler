@@ -12,5 +12,38 @@ namespace Project_Euler.Projects
 
     class Project2
     {
+        Project2() { }
+        public static void Solution()
+        {
+            double[] fibArray = new double[100];
+            double[] evenFibArray = new double[50];
+            double x = 0;
+            int position = 2;
+            int ePosition = 1;
+            fibArray[0] = 1;
+            fibArray[1] = 2;
+            evenFibArray[0] = 2;
+            
+            while (x < 4000000){
+                x = fibArray[position - 2] + fibArray[position - 1];
+                fibArray[position] = x;
+                if (x %2 == 0)
+                {
+                    evenFibArray[ePosition] = x;
+                    ePosition++;
+                }
+                position++;
+            }
+            double sum = 0;
+            for (int i = 0; i < evenFibArray.Length; i++)
+            {
+                sum += evenFibArray[i];
+            }
+
+            Console.WriteLine(sum);
+
+        }
     }
 }
+//  Fibonacci numbers saved in an array, adds last 2 in array while x < 4,000,000. then checks if new x is even if it is add it to a different array.
+//  add all numbers in second array after 1st is done.

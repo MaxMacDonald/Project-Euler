@@ -2,7 +2,7 @@
 using System.Collections.Generic;
 using System.Text;
 
-namespace Project_Euler
+namespace Project_Euler.Projects
 {
     //----------------------------------------------------------------COMPLETE--------------------------------------------------------------------------------------
 
