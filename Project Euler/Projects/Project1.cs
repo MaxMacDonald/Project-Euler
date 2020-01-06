@@ -13,7 +13,7 @@ namespace Project_Euler.Projects
     {
         Project1() { }
 
-        public static void RunCode()
+        public static void Solution()
         {
             double[] numList = new double[1000];
             double total = 0;

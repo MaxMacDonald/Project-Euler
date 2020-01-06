@@ -10,8 +10,7 @@ namespace Project_Euler
         public static void Main(string[] args)
         {
             Console.WriteLine("Hello World!");
-            Project1.RunCode();
-            Project2.Solution();
+            Project3.Solution();
             
         }
     }
